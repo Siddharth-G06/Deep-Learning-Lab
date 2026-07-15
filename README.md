@@ -4,7 +4,6 @@
 
 This repository contains the programming assignments and experiments conducted for the Deep Learning Laboratory (CS3807) course. Each experiment is organized into its own folder, complete with a dedicated README file, source code, and dataset information.
 
-A key focus of these experiments is building foundational concepts. Therefore, the core machine learning models are implemented from scratch using fundamental libraries, rather than relying on high-level functions like `model.fit()`. This approach ensures a deeper understanding of the underlying mathematics and algorithms.
 
 ---
 
@@ -14,7 +13,7 @@ A key focus of these experiments is building foundational concepts. Therefore, t
 |---|-------|---------|--------|
 | 1 | [Single Layer Perceptron](./Lab%201%20-%20Single%20Layer%20Perceptron/) | Banknote Authentication (UCI) | Completed |
 
-Additional experiments will be added as the semester progresses.
+
 
 ---
 
@@ -32,7 +31,6 @@ DL Lab/
 └── README.md                            ← Main repository overview
 ```
 
-*Note: Generated plots and laboratory manuals are kept locally and are excluded from version control (see `.gitignore`).*
 
 ---
 
@@ -50,4 +48,3 @@ To run any of the experiments locally, please follow these steps:
    jupyter notebook
    ```
 
-Each notebook is designed to be self-contained and ready to execute.
