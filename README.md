@@ -12,6 +12,7 @@ This repository contains the programming assignments and experiments conducted f
 | Experiment No. | Title | Dataset | Status |
 |---|-------|---------|--------|
 | 1 | [Single Layer Perceptron](./Lab%201%20-%20Single%20Layer%20Perceptron/) | Banknote Authentication (UCI) | Completed |
+| 2 | [Multi-Layer Perceptron (MLP) for Image Classification](./Lab%202%20-%20Multi-Layer%20Perceptron/) | Fashion-MNIST | Completed |
 
 
 
@@ -27,6 +28,11 @@ DL Lab/
 │   ├── requirements.txt                 ← Required libraries
 │   └── banknote+authentication/
 │       └── data_banknote_authentication.txt
+├── Lab 2 - Multi-Layer Perceptron/
+│   ├── README.md                        ← Experiment details and theory
+│   ├── DL_Lab_2.ipynb                   ← Implementation source code
+│   ├── Experiment_2_Lab_Manual.pdf      ← Lab manual
+│   └── *.eps                            ← Generated output plots
 ├── .gitignore
 └── README.md                            ← Main repository overview
 ```
