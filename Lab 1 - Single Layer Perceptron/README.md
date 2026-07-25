@@ -103,3 +103,37 @@ pip install -r requirements.txt
 - **Learning Rate Impact:** A smaller learning rate (`0.001`) leads to slower, more gradual convergence, while a larger learning rate (`0.1`) can cause the model's weights to oscillate before settling.
 - **Normalization:** Applying Min-Max normalization significantly improves the stability and speed of the weight updates during training.
 - **Parameter Evolution:** The generated plots for weight and bias evolution clearly demonstrate how the model's parameters adjust and eventually stabilize as the training process completes.
+
+# Additional Exercise: Perceptron Learning for Logic Gates
+
+## Objective
+Implement the Perceptron Learning Algorithm from scratch for the AND, OR, and NOT logic gates. Display the weight updates after each iteration and visualize the decision boundary during training.
+
+## Experimental Procedure
+- Define the truth tables for the AND, OR, and NOT gates.
+- Initialize the weights and bias to zero.
+- Apply the step activation function.
+- Update the weights and bias using the perceptron learning rule.
+- Plot the decision boundary after every weight update.
+- Continue training until all samples are correctly classified.
+
+## Files
+```
+Additional_Exercise.ipynb    # Source code
+README.md                    # Documentation
+requirements.txt             # Required libraries
+```
+
+## Dependencies
+- numpy
+- matplotlib
+- jupyter
+
+Install using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Observation
+The perceptron successfully learns all three logic gates by updating its weights and bias iteratively. The decision boundary gradually shifts during training until it correctly separates the input classes for each gate.
