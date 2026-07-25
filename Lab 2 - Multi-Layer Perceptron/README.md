@@ -240,3 +240,23 @@ pip install tensorflow scikit-learn scikeras numpy pandas matplotlib seaborn jup
 3. Haykin, S. (2009). *Neural Networks and Learning Machines*. Pearson.
 4. Xiao, H., Rasul, K., & Vollgraf, R. (2017). *Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms*.
 5. TensorFlow/Keras Documentation. https://www.tensorflow.org/api_docs
+
+# Additional Exercise: Multi-Layer Perceptron for XOR Classification
+
+## Objective
+
+Implement a Multi-Layer Perceptron (MLP) using TensorFlow/Keras to solve the XOR classification problem and compare its performance with a single-layer perceptron.
+
+## Experimental Procedure
+
+- Implement a single-layer perceptron for the XOR gate.
+- Observe that the perceptron fails to converge since XOR is not linearly separable.
+- Build an MLP with one hidden layer using TensorFlow/Keras.
+- Train the network using the Adam optimizer and binary cross-entropy loss.
+- Evaluate the model using prediction accuracy.
+- Plot the training accuracy, training loss, and learned decision boundary.
+
+
+## Observation
+
+The single-layer perceptron failed to solve the XOR problem because the classes are not linearly separable. The Multi-Layer Perceptron successfully learned the nonlinear decision boundary, achieving correct classification of all XOR input combinations. The training accuracy reached 100% while the loss decreased steadily, demonstrating successful convergence.
