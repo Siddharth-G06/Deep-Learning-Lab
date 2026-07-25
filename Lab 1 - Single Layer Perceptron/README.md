@@ -117,23 +117,6 @@ Implement the Perceptron Learning Algorithm from scratch for the AND, OR, and NO
 - Plot the decision boundary after every weight update.
 - Continue training until all samples are correctly classified.
 
-## Files
-```
-Additional_Exercise.ipynb    # Source code
-README.md                    # Documentation
-requirements.txt             # Required libraries
-```
-
-## Dependencies
-- numpy
-- matplotlib
-- jupyter
-
-Install using:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Observation
 The perceptron successfully learns all three logic gates by updating its weights and bias iteratively. The decision boundary gradually shifts during training until it correctly separates the input classes for each gate.
