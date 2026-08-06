@@ -9,4 +9,4 @@ The dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 imag
 
 ## Contents
 * `DL_Lab_3.ipynb`: The Jupyter Notebook containing the implementation of the CNN.
-* `sample_images.eps`: Generated output plots from the experiment.
+* `DL_Lab_3.pdf`: Generated report of the experiment.
