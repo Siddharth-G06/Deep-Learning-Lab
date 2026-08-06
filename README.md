@@ -13,6 +13,7 @@ This repository contains the programming assignments and experiments conducted f
 |---|-------|---------|--------|
 | 1 | [Single Layer Perceptron](./Lab%201%20-%20Single%20Layer%20Perceptron/) | Banknote Authentication (UCI) | Completed |
 | 2 | [Multi-Layer Perceptron (MLP) for Image Classification](./Lab%202%20-%20Multi-Layer%20Perceptron/) | Fashion-MNIST | Completed |
+| 3 | [Convolutional Neural Network (CNN) for Image Classification](./Lab%203%20-%20Convolutional%20Neural%20Network/) | CIFAR-10 | Completed |
 
 
 
@@ -33,6 +34,10 @@ DL Lab/
 │   ├── DL_Lab_2.ipynb                   ← Implementation source code
 │   ├── Experiment_2_Lab_Manual.pdf      ← Lab manual
 │   └── *.eps                            ← Generated output plots
+├── Lab 3 - Convolutional Neural Network/
+│   ├── README.md                        ← Experiment details and theory
+│   ├── DL_Lab_3.ipynb                   ← Implementation source code
+│   └── sample_images.eps                ← Generated output plots
 ├── .gitignore
 └── README.md                            ← Main repository overview
 ```
