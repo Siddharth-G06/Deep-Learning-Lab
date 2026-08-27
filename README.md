@@ -1,9 +1,8 @@
 # Deep Learning Laboratory (CS3807)
 
-> Shiv Nadar University Chennai | Academic Year 2026—27
+> Shiv Nadar University Chennai | Academic Year 2026–27
 
 This repository contains the programming assignments and experiments conducted for the Deep Learning Laboratory (CS3807) course. Each experiment is organized into its own folder, complete with a dedicated README file, source code, and dataset information.
-
 
 ---
 
@@ -15,14 +14,13 @@ This repository contains the programming assignments and experiments conducted f
 | 2 | [Multi-Layer Perceptron (MLP) for Image Classification](./Lab%202%20-%20Multi-Layer%20Perceptron/) | Fashion-MNIST | Completed |
 | 3 | [Convolutional Neural Network (CNN) for Image Classification](./Lab%203%20-%20Convolutional%20Neural%20Network/) | CIFAR-10 | Completed |
 | 4 | [Comparative Study of Deep CNN Architectures Using Transfer Learning](./Lab%204-%20Deep%20CNN%20Architecture%20Using%20Transfer%20Learning/) | CIFAR-10 | Completed |
-
-
+| 5 | [Comprehensive Study of CNN Training](./Lab%205%20-%20Comprehensive%20Study%20of%20CNN%20Training/) | Oxford-IIIT Pet Dataset | Completed |
 
 ---
 
 ## Repository Structure
 
-```
+```text
 DL Lab/
 ├── Lab 1 - Single Layer Perceptron/
 │   ├── README.md                        # Experiment details and theory
@@ -45,10 +43,13 @@ DL Lab/
 │   ├── Experiment_4_Lab_Manual.pdf      # Lab manual
 │   ├── requirements.txt                 # Required libraries
 │   └── *.eps                            # Generated output plots
+├── Lab 5 - Comprehensive Study of CNN Training/
+│   ├── README.md                        # Experiment details and theory
+│   ├── dl-lab-5.ipynb                   # Implementation source code
+│   └── images/                          # Images folder for the lab
 ├── .gitignore
 └── README.md                            # Main repository overview
 ```
-
 
 ---
 
