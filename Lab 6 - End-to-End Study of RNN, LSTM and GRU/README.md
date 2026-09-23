@@ -76,33 +76,6 @@ The implementation is documented in `Experiment6_Complete_Lab.ipynb` and is divi
 
 ---
 
-## Repository Contents
-
-```
-Lab 6 - End-to-End Study of RNN, LSTM and GRU/
-+-- README.md                                        # This document
-+-- Experiment6_Complete_Lab.ipynb                   # Jupyter Notebook with the full implementation
-+-- Experiment_6(1).tex                              # Lab manual (LaTeX source)
-+-- Experiment_6.pdf                                 # Lab manual (PDF)
-+-- Sensor signal versus time.png                    # Raw sensor signal visualisation
-+-- plot1_sensor_signals.png/.eps                    # Plot 1 - Sensor signals over time
-+-- plot2_rnn_loss.png/.eps                          # Plot 2a - RNN training & validation loss
-+-- plot2_lstm_loss.png/.eps                         # Plot 2b - LSTM training & validation loss
-+-- plot2_gru_loss.png/.eps                          # Plot 2c - GRU training & validation loss
-+-- plot3_rnn_accuracy.png/.eps                      # Plot 3a - RNN accuracy curves
-+-- plot3_lstm_accuracy.png/.eps                     # Plot 3b - LSTM accuracy curves
-+-- plot3_gru_accuracy.png/.eps                      # Plot 3c - GRU accuracy curves
-+-- plot4_rnn_confusion_matrix.png/.eps              # Plot 4a - RNN confusion matrix
-+-- plot4_lstm_confusion_matrix.png/.eps             # Plot 4b - LSTM confusion matrix
-+-- plot4_gru_confusion_matrix.png/.eps              # Plot 4c - GRU confusion matrix
-+-- plot5_model_comparison.png/.eps                  # Plot 5 - Model comparison bar chart
-+-- plot6_sequence_length_vs_f1.png/.eps             # Plot 6 - Sequence length vs. F1-score
-+-- plot7_video_sample_frames.png/.eps               # Plot 7 - Sample video frames
-+-- plot8_video_lstm_curves.png/.eps                 # Plot 8a - Video LSTM training curves
-+-- plot8_video_gru_curves.png/.eps                  # Plot 8b - Video GRU training curves
-+-- plot9_video_confusion_matrix.png/.eps            # Plot 9 - Video confusion matrix
-+-- plot_seq2seq_loss_and_position_accuracy.png/.eps # Plot 10 - Seq2Seq loss & accuracy
-```
 
 ---
 
