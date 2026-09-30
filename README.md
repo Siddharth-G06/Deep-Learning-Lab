@@ -16,6 +16,7 @@ This repository contains the programming assignments and experiments conducted f
 | 4 | [Comparative Study of Deep CNN Architectures Using Transfer Learning](./Lab%204-%20Deep%20CNN%20Architecture%20Using%20Transfer%20Learning/) | CIFAR-10 | Completed |
 | 5 | [Comprehensive Study of CNN Training](./Lab%205%20-%20Comprehensive%20Study%20of%20CNN%20Training/) | Oxford-IIIT Pet Dataset | Completed |
 | 6 | [End-to-End Study of RNN, LSTM and GRU for Sequence Learning and Video Understanding](./Lab%206%20-%20End-to-End%20Study%20of%20RNN%2C%20LSTM%20and%20GRU/) | UCI HAR + UCF101 (video) | Completed |
+| 7 | [End-to-End Study of Autoencoders, Convolutional Autoencoders, Denoising Autoencoders and Variational Autoencoders](./Lab%207%20-%20End-to-End%20Study%20of%20Autoencoders%2C%20Convolutional%20Autoencoders%2C%20Denoising%20Autoencoders%20and%20Variational%20Autoencoders/) | MNIST | Completed |
 
 ---
 
@@ -54,6 +55,11 @@ DL Lab/
 |   +-- Experiment_6.pdf                 # Lab manual (PDF)
 |   +-- Experiment_6(1).tex              # Lab manual (LaTeX source)
 |   +-- plot*.png                        # Generated output plots
++-- Lab 7 - End-to-End Study of Autoencoders, Convolutional Autoencoders, Denoising Autoencoders and Variational Autoencoders/
+|   +-- README.md                        # Experiment details and theory
+|   +-- Lab_7.ipynb                      # Implementation source code
+|   +-- Experiment_7.tex                 # Lab manual (LaTeX source)
+|   +-- lab7_plots/                      # Generated output plots (PNG + EPS)
 +-- .gitignore
 +-- README.md                            # Main repository overview
 ```
