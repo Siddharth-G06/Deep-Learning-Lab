@@ -200,35 +200,6 @@ The full implementation is documented in `Lab_7.ipynb` and is divided into the f
 
 ---
 
-## Repository Contents
-
-```
-Lab 7 - End-to-End Study of Autoencoders, Convolutional Autoencoders, Denoising Autoencoders and Variational Autoencoders/
-+-- README.md                       # This document
-+-- Lab_7.ipynb                     # Jupyter Notebook with the full implementation
-+-- Experiment_7.tex                # Lab manual (LaTeX source)
-+-- lab7_plots/
-    +-- plot1.png                   # Plot 1 - Original vs. reconstructed (FC-AE)
-    +-- plot3.png                   # Plot 3 - FC-AE vs. CAE comparison
-    +-- plot4.png                   # Plot 4 - Clean vs. noisy vs. denoised
-    +-- plot6.png                   # Plot 6 - VAE latent space visualisation
-    +-- plot7.png                   # Plot 7 - VAE generated samples
-    +-- plot8.png                   # Plot 8 - Latent space interpolation
-    +-- plot10_he.png               # Plot 10 - Highest reconstruction error samples
-    +-- plot_1_original_vs_reconstructed.eps
-    +-- plot_2_fc_training_validation_loss.eps
-    +-- plot_3_original_fc_ae_vs_cae.eps
-    +-- plot_4_clean_noisy_denoised.eps
-    +-- plot_5_noise_level_vs_metrics.eps
-    +-- plot_6_vae_latent_space.eps
-    +-- plot_7_vae_generated_samples.eps
-    +-- plot_8_vae_latent_interpolation.eps
-    +-- plot_9_vae_training_validation_reconstruction_loss.eps
-    +-- plot_10_reconstruction_error_distribution.eps
-    +-- plot_10_highest_error_images.eps
-```
-
----
 
 ## Reconstruction Metrics
 
@@ -242,18 +213,7 @@ SSIM is computed using [`skimage.metrics.structural_similarity`](https://scikit-
 
 ---
 
-## Consolidated Model Results
 
-| Model | MSE | MAE | SSIM | Parameters | Training Time |
-|---|---|---|---|---|---|
-| FC Autoencoder | — | — | — | — | — |
-| Convolutional AE | — | — | — | — | — |
-| Denoising CAE | — | — | — | — | — |
-| VAE | — | — | — | — | — |
-
-*(Values are to be filled in from the student's own execution of `Lab_7.ipynb`.)*
-
----
 
 ## Key Observations
 
