@@ -185,41 +185,7 @@ The full implementation is documented in `Lab_8_final.ipynb` and follows these t
 
 ---
 
-## Required Plots
 
-| Plot Filename | Description |
-|---|---|
-| `baseline_accuracy.eps` | Baseline ResNet50 training & validation accuracy |
-| `baseline_loss.eps` | Baseline ResNet50 training & validation loss |
-| `baseline_confusion_matrix.eps` | Baseline confusion matrix |
-| `se_p3_training_curves.eps` | SE attention at P3 training curves |
-| `baseline_vs_se_p3.eps` | Baseline vs SE (P3) bar comparison |
-| `spatial_p3_training_curves.eps` | Spatial attention at P3 training curves |
-| `baseline_se_spatial_comparison.eps` | Baseline vs SE vs Spatial comparison |
-| `cbam_p3_accuracy.eps` | CBAM at P3 accuracy curves |
-| `cbam_p3_loss.eps` | CBAM at P3 loss curves |
-| `cbam_p3_confusion_matrix.eps` | CBAM at P3 confusion matrix |
-| `cbam_position_comparison.eps` | CBAM at P2 vs P3 vs P4 comparison |
-| `spatial_attention_p2_p3_p4.eps` | Spatial attention position comparison |
-| `gradcam_baseline_vs_cbam_p3.eps` | Grad-CAM: Baseline vs CBAM at P3 |
-| `all_models_confusion_matrices.eps` | All model confusion matrices |
-| `training_accuracy_comparison.eps` | Training accuracy curves across all models |
-| `attention_type_comparison.eps` | Attention type ablation bar chart |
-| `all_model_performance_comparison.eps` | Full model performance comparison |
-| `self_attention_p3_training_curves.eps` | Self-attention training curves |
-| `self_attention_p3_confusion_matrix.eps` | Self-attention confusion matrix |
-| `inference_time_comparison.eps` | Inference time per model |
-| `parameter_comparison.eps` | Trainable parameter count comparison |
-| `dataset_samples.eps` | Sample images from the dataset |
-| `accuracy_vs_inference_time.eps` | Accuracy–complexity scatter plot |
-| `attention_order_comparison.eps` | Channel→Spatial vs Spatial→Channel |
-| `multi_stage_attention_comparison.eps` | Multi-stage attention results |
-| `combined_training_validation_curves.eps` | All models combined training curves |
-| `accuracy_vs_model_complexity.eps` | Accuracy vs parameter count |
-| `four_model_performance.eps` | Key four-model comparison |
-| `key_metrics_comparison.eps` | Key metrics bar chart |
-
----
 
 ## Repository Contents
 
@@ -233,19 +199,7 @@ Lab 8 - Effect of Attention Type and Attention Position in a Pretrained ResNet50
 
 ---
 
-## Required Result Table
 
-| Model | Position | Accuracy | Precision | Recall | F1 | Parameters | Inference Time |
-|---|---|---|---|---|---|---|---|
-| Baseline ResNet50 | – | — | — | — | — | — | — |
-| Channel Attention | P3 | — | — | — | — | — | — |
-| Spatial Attention | P3 | — | — | — | — | — | — |
-| Channel+Spatial | P2 | — | — | — | — | — | — |
-| Channel+Spatial | P3 | — | — | — | — | — | — |
-| Channel+Spatial | P4 | — | — | — | — | — | — |
-| Self-Attention | P3 | — | — | — | — | — | — |
-| Additional Attention-1 | P3 | — | — | — | — | — | — |
-| Additional Attention-2 | P3 | — | — | — | — | — | — |
 
 *(Values are to be filled in from the student's own execution of `Lab_8_final.ipynb`.)*
 
