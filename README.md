@@ -17,6 +17,7 @@ This repository contains the programming assignments and experiments conducted f
 | 5 | [Comprehensive Study of CNN Training](./Lab%205%20-%20Comprehensive%20Study%20of%20CNN%20Training/) | Oxford-IIIT Pet Dataset | Completed |
 | 6 | [End-to-End Study of RNN, LSTM and GRU for Sequence Learning and Video Understanding](./Lab%206%20-%20End-to-End%20Study%20of%20RNN%2C%20LSTM%20and%20GRU/) | UCI HAR + UCF101 (video) | Completed |
 | 7 | [End-to-End Study of Autoencoders, Convolutional Autoencoders, Denoising Autoencoders and Variational Autoencoders](./Lab%207%20-%20End-to-End%20Study%20of%20Autoencoders%2C%20Convolutional%20Autoencoders%2C%20Denoising%20Autoencoders%20and%20Variational%20Autoencoders/) | MNIST | Completed |
+| 8 | [Effect of Attention Type and Attention Position in a Pretrained ResNet50](./Lab%208%20-%20Effect%20of%20Attention%20Type%20and%20Attention%20Position%20in%20a%20Pretrained%20ResNet50/) | TensorFlow Flowers | Completed |
 
 ---
 
@@ -60,6 +61,11 @@ DL Lab/
 |   +-- Lab_7.ipynb                      # Implementation source code
 |   +-- Experiment_7.tex                 # Lab manual (LaTeX source)
 |   +-- lab7_plots/                      # Generated output plots (PNG + EPS)
++-- Lab 8 - Effect of Attention Type and Attention Position in a Pretrained ResNet50/
+|   +-- README.md                        # Experiment details and theory
+|   +-- Lab_8_final.ipynb                # Implementation source code
+|   +-- Experiment_8.tex                 # Lab manual (LaTeX source)
+|   +-- Academics_SNUC.pdf               # Lab manual (PDF)
 +-- .gitignore
 +-- README.md                            # Main repository overview
 ```
